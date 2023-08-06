@@ -15,5 +15,5 @@ jobs:
           with:
             node-version: 18
         - run: |
-            cd fullstack-front
-            npm start
+            cd fullstack_front
+            npm ci
