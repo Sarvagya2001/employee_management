@@ -3,7 +3,7 @@ name: React CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -16,4 +16,4 @@ jobs:
             node-version: 18
         - run: |
             cd fullstack-front
-            npm ci
+            npm start
