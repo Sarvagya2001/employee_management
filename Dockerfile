@@ -1,5 +1,5 @@
 FROM node:latest
-WORKDIR '/fullstack_front'
+WORKDIR '/app'
 
 COPY package.json ./
 RUN npm install
