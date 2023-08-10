@@ -24,6 +24,6 @@ jobs:
             tags: latest
             registry: docker.io
             dockerfile: Dockerfile
-            username: ${{ SarvagyaAgrawal }}
+            username: ${{ sarvagyaagrawal }}
             password: ${{ Sarvagya@12345 }}
       
